@@ -1,6 +1,6 @@
 <?php
 
-abstract class Surface
+abstract class Surfaces
 {
     /**
      * La largeur d'une salle de classe

@@ -13,3 +13,11 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
+
+try {
+    $meuble = new Meuble(50, 50, 50, "tabouret");
+
+    echo $meuble;
+} catch (Exception $e) {
+    echo $e->getMessage();
+}
