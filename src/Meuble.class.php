@@ -15,6 +15,6 @@ class Meuble extends Surfaces
 
     public function __toString()
     {
-        return self::class . "\nNom : " . $this->getNom() . "cm" . "\nLargeur : " . $this->getLargeur() . "cm" . "\nHauteur : " . $this->getHauteur() . "\nProfondeur : " . $this->getProfondeur() . "cm";
+        return self::class . "\nNom : " . $this->getNom() . "\nLargeur : " . $this->getLargeur() . "cm" . "\nHauteur : " . $this->getHauteur() . "\nProfondeur : " . $this->getProfondeur() . "cm";
     }
 }

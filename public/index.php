@@ -24,9 +24,8 @@ try {
 
 
 try {
-    $classRooms = new ClassRooms("S_001", 20, 12, ["tous les meubles"]);
+    $classRooms = new ClassRooms("S_001", 20, 12, [$meuble->getNom()], 10, 2, 20);
 
-    // $meuble->getNom()]
     echo $classRooms;
 } catch (Exception $e) {
     echo $e->getMessage();
