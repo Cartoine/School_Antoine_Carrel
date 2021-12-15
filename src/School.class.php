@@ -48,6 +48,6 @@ class School extends Surface
     // Pour afficher 
     public function __toString()
     {
-        return self::class . " Adresse : " . $this->getAdresse() . "\nNombre de sallles de classe maximum : " . $this->getQuantityMax() . "\nNombre de sallles : " . $this->getQuantity() . "\nToutes les salles de l'ecole : " . print $this->getArrayContent();
+        return self::class . " Adresse : " . $this->getAdresse() . "\nNombre de sallles de classe maximum : " . $this->getQuantityMax() . "\nNombre de sallles : " . $this->getQuantity() . "\nToutes les salles de l'ecole : " . implode($this->getArrayContent());
     }
 }
