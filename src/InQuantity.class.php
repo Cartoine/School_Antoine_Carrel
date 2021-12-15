@@ -3,7 +3,7 @@
 // namespace App;
 
 
-abstract class Surface
+abstract class InQuantity
 {
     /**
      * quantité max de salles et demeubles
@@ -110,6 +110,6 @@ abstract class Surface
         return $this;
     }
 
-    abstract function getSurfaces();
+    abstract function getInQuantity();
     // abstract function __toString(): string;
 }

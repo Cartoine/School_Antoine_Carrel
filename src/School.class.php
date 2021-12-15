@@ -1,6 +1,6 @@
 <?php
 
-class School extends Surface
+class School extends InQuantity
 {
     /**
      * Adresse de l'ecole
@@ -15,7 +15,7 @@ class School extends Surface
         $this->adresse = $adresse;
     }
 
-    public function getSurfaces()
+    public function getInQuantity()
     {
     }
 
